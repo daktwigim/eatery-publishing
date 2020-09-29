@@ -1,0 +1,171 @@
+const profile = {
+  name: '서희상',
+  taste: {
+    onlymeal: true, // false: withalcohol;
+    quality: true, // flase: quantity
+    new: true, // false: used
+    fancy: true, // false: local
+  },
+};
+
+const reviews = [
+  {
+    id: 1,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=1',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 2,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=2',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 3,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=3',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 4,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=4',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 5,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=5',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 6,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=6',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 7,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=7',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 8,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=8',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 9,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=9',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 10,
+    userId: 1,
+    author: '서희상',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=10',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 11,
+    author: '박준규',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=11',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 12,
+    author: '이혜림',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=12',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 13,
+    author: '이은아',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=13',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 14,
+    author: '박한수',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=14',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 15,
+    author: '김준경',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=15',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 16,
+    author: '이혜림',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=16',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 17,
+    author: '박준규',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=17',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 18,
+    author: '박준규',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=18',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 19,
+    author: '박준규',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=19',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 20,
+    author: '이혜림',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=20',
+    place: '샐러디 논현점',
+  },
+  {
+    id: 21,
+    author: '박한수',
+    date: '2020.08.15',
+    imageUrl: 'https://picsum.photos/400/300?q=21',
+    place: '샐러디 논현점',
+  },
+];
+
+export default { profile, reviews };
